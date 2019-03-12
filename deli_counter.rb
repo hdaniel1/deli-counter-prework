@@ -5,7 +5,7 @@ def line(katz_deli)
   if katz_deli.length > 0
     katz_deli.each_with_index { |person, number|
       new.push("#{number + 1}. #{person} ")
-    end 
+    end
   return new
-    
+
 end
