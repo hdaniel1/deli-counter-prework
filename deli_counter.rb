@@ -8,5 +8,6 @@ def line(katz_deli)
       return "The line is currently: #{new}"
     end
   else return "The line is currenlty empty."
+  end
 
 end
