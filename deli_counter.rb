@@ -5,8 +5,9 @@ def line(katz_deli)
   if katz_deli.length > 0
     katz_deli.each_with_index { |person, number|
       new.push("#{number + 1}. #{person} ")
+      return "The line is currently: #{new}"
     end
-  end
+  else return "The line is currenlty empty.""
   return "The line is currently: #{new}"
 
 end
