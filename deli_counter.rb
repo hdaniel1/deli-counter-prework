@@ -7,7 +7,7 @@ def line(katz_deli)
       new.push("#{number + 1}. #{person}")
       return "The line is currently: #{new}"
     end
-  else return "The line is currenlty empty."
+  else return "The line is currently empty."
   end
 
 end
