@@ -6,6 +6,6 @@ def line(katz_deli)
     katz_deli.each_with_index { |person, number|
       new.push("#{number + 1}. #{person} ")
     end
-  return "The line is currently: #{new}""
+  return "The line is currently: #{new}"
 
 end
